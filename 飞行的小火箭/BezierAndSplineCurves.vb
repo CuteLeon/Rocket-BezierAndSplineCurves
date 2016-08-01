@@ -40,6 +40,9 @@ Public Class BezierAndSplineCurves
         Label2.Text = PathPoints(PathPointIndex).ToString & vbCrLf & Angle.ToString("###") & vbCrLf & Math.Sqrt((LastPoint.X - PathPoints(PathPointIndex).X) ^ 2 + (LastPoint.Y - PathPoints(PathPointIndex).Y) ^ 2).ToString("###") & vbCrLf & PathPointIndex & " / " & PathPoints.Count
 
         DrawImage()
+
+        '每次处理完毕强制回收内存
+        GC.Collect()
     End Sub
 
 #End Region
