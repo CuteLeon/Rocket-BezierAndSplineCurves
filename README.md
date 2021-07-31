@@ -3,4 +3,4 @@
 内置算法可以无限生成无限延长的平滑样条曲线
 
 ### 截图
-![image](./生成/截图.png)
+![image](https://raw.github.com/CuteLeon/Rocket-BezierAndSplineCurves/master/生成/截图.png)
